@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="./images/building-solid.svg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>Company Website</title>
+
+   <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">What's_Next<span>Infotech</span></a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#services">services</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" name="" placeholder="search any" id="search-box"/>
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <form action="" class="login-form">
+        <h3>login</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+          <a href="#">forgot password?</a>
+        </div>
+
+        <input type="submit" value="login now" class="btn" />
+        <p>don't have an account <a href="#">register!</a></p>
+      </form>
+    </header>
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section class="swiper-slide slide" style="background: url(images/BGimg.jpg) no-repeat">
+            <div class="content">
+              <h3>A Platform to Invent And Empower</h3>
+              <p>We are a team of talented engineers, helping to empower individuals and businesses through innvovations.</p>
+              <a href="#about" class="btn">Get Started</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading">about us</h1>
+
+      <div class="row">
+        <div class="content">
+          <h3>Our Company</h3>
+          <p>Welcome to What's Next Infotech. where we innovate to transform the landscape with cutting-edge solutions. Our mission is to exceed expectations through quality, integrity, and customer-focused excellence.</p>
+          <a href="#services" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <h3>5+</h3>
+          <p>years of experience</p>
+        </div>
+
+        <div class="box">
+          <h3>25+</h3>
+          <p>project completed</p>
+        </div>
+
+        <div class="box">
+          <h3>20+</h3>
+          <p>active developers</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h1 class="heading">our services</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <h3>Web Development</h3>
+          <p>We create responsive, user-friendly websites that drive engagement and deliver exceptional user experiences. Our expert team ensures quality, innovation, and seamless functionality to help your business thrive online.</p>
+        </div>
+
+        <div class="box">
+          <h3>Mobile App Development</h3>
+          <p>We build intuitive, high-performance mobile apps that enhance user engagement and drive business growth. Our skilled team ensures top-quality, innovative solutions for a seamless mobile experience.
+        </div>
+
+        <div class="box">
+          <h3>Digital Marketing</h3>
+          <p>We create impactful digital marketing strategies that boost your online presence and drive customer engagement. Our expert team leverages cutting-edge tools and techniques to deliver measurable results and accelerate your business growth.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="heading">contact us</h1>
+
+      <div class="row">
+
+        <form action="">
+          <h3>WE WANT TO HEAR FROM YOU</h3>
+          <input type="text" placeholder="name" class="box"/>
+          <input type="email" placeholder="email" class="box"/>
+          <input type="number" placeholder="phone" class="box"/>
+          <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
+          <input type="submit" value="Submit" class="btn"/>
+        </form>
+      </div>
+    </section>
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".projects .box-container"));
+    </script>
+
+  </body>
+</html>
