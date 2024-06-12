@@ -25,7 +25,7 @@ company-website/
 ## Usage
 
 1. Clone the repository:
-   git clone https://github.com/sivasakthip/company-website.git
+   git clone https://sivasakthip.github.io/Company_Website/
 
 ## Contributing
 Feel free to submit issues or pull requests if you have any suggestions for improvements.
